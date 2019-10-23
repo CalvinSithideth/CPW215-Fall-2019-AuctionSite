@@ -19,4 +19,7 @@ steps:
   inputs:
     command: test
     projects: '**/*Tests/*.csproj'
+    # **/ wildcard for search for project
+    # *Tests wildcard search for anything with 'Tests' at the end
+    # /*.csproj Searches for any .csproj
     arguments: '--configuration $(buildConfiguration)'
