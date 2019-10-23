@@ -12,7 +12,7 @@ namespace AuctionSite.Controllers
     {
         public IActionResult Index()
         {
-            return View();TestingSyntaxErrorHereForAzurePipelines
+            return View();
         }
 
         public IActionResult Privacy()
